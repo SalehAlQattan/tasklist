@@ -137,7 +137,7 @@ function clearTasks() {
 
   if (taskList.innerHTML === '') {
     alert('There is Nothing to Clear');
-  } else if (confirm('Are You Sure You Would Like to Clea All Tasks')) {
+  } else if (confirm('Are You Sure You Would Like to Clear All Tasks')) {
     // Faster
     while (taskList.firstChild) {
       taskList.removeChild(taskList.firstChild);
